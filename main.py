@@ -27,7 +27,7 @@ async def is_admins(chat_id: int):
 
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-        await bot.join_chat("the_moh_maya", "love_ki_duniya1")
+        await bot.join_chat("PAWAN_IS_BACK", "ANGEL_K_WORLD")
 
 
 @bot.on_message(
@@ -301,5 +301,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print("Your Chatbot Is Ready Now! Join @love_ki_duniya1 And @the_moh_maya")
+print("Your Chatbot Is Ready Now! Join @ANGEL_K_WORLD And @PAWAN_IS_BACK")
 bot.run()
